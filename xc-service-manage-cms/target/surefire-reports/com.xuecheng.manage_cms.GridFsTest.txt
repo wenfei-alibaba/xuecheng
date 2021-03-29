@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.manage_cms.GridFsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.121 s <<< FAILURE! - in com.xuecheng.manage_cms.GridFsTest
+queryFile(com.xuecheng.manage_cms.GridFsTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.xuecheng.manage_cms.GridFsTest.queryFile(GridFsTest.java:56)
+

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.test.freemarker.FreemarkerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.474 s <<< FAILURE! - in com.xuecheng.test.freemarker.FreemarkerTest
+testGenerateHtml(com.xuecheng.test.freemarker.FreemarkerTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Failed to create parent directories for [d:\logs\xc.2021-03-22.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - openFile(null,true) call failed. java.io.FileNotFoundException: d:\logs\xc.2021-03-22.log (系统找不到指定的路径。)
+
+testGenerateHtmlByString(com.xuecheng.test.freemarker.FreemarkerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Failed to create parent directories for [d:\logs\xc.2021-03-22.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - openFile(null,true) call failed. java.io.FileNotFoundException: d:\logs\xc.2021-03-22.log (系统找不到指定的路径。)
+

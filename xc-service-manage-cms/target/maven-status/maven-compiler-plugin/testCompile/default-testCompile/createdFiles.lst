@@ -1,0 +1,4 @@
+com\xuecheng\manage_cms\dao\PageServiceTest.class
+com\xuecheng\manage_cms\GridFsTest.class
+com\xuecheng\manage_cms\RestTemplateTest.class
+com\xuecheng\manage_cms\dao\CmsPageRepositoryTest.class
